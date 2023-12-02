@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;400&display=swap');
+
+body {
+    background-color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Londrina Outline', sans-serif;
+    color: orange;
+    text-shadow: 2px 2px yellow;
+    border: black solid;
+    padding: 2rem;
+}
+
+summary {
+    font-family: 'Alexandria', sans-serif;
+}
+
+summary:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    color: orange;
+    text-shadow: 2px 2px yellow;
+
+}
+
+p {
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 100;
+}

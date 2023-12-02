@@ -1,0 +1,34 @@
+
+<!-- 
+    I followed this tutorial:
+    https://www.freecodecamp.org/news/create-html-accordions-with-and-without-javascript/
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accordion</title>
+</head>
+<body>
+    <section>
+       <h2>Accordion about Raichu</h2>
+       <details open>
+            <summary class = "withJS">Who is Raichu?</summary> <!-- If you click on it, the text underneath will open. -->
+            <p>An awesome electric pokémon. The evolution of Pikachu.</p>
+       </details>  
+        <details>
+            <summary class = "withJS">What kind of attacks does he have?</summary>
+            <p>Electric ones mostly (Thunderbolt, Thunder Punch, etc.).</p>
+       </details> 
+        <details>
+            <summary class = "withJS">What are his weaknesses?</summary>
+            <p>Raichu is weak to Ground-type attacks.</p>
+       </details>  
+    </section>
+    <script src = "script.js"></script>
+</body>
+</html>
+
